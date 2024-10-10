@@ -1,6 +1,6 @@
 {
   "name": "vitepress-transform",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Transform markdown in-place before vitepress builds",
   "repository": "taskylizard/vitepress-transform",
   "homepage": "https://github.com/taskylizard/vitepress-transform#readme",
@@ -19,7 +19,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "unbuild",
     "prepack": "pnpm build",

@@ -6,6 +6,8 @@ import Transformer from '../../src';
 export default defineConfig({
   title: 'Vitepress Transform',
   description: 'Transform markdown before vitepress builds',
+  cleanUrls: true,
+  base: '/vitepress-transform/',
   vite: {
     plugins: [
       ...Transformer((text, id) => {

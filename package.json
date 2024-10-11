@@ -1,6 +1,6 @@
 {
   "name": "vitepress-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform markdown in-place before vitepress builds",
   "repository": "taskylizard/vitepress-transform",
   "homepage": "https://github.com/taskylizard/vitepress-transform#readme",

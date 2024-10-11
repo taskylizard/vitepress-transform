@@ -49,7 +49,7 @@ export function movePlugin(
 export default (transforms: TransformFunction) =>
   [
     transformerPlugin((text, id) => {
-      if (id.startsWith('.md')) {
+      if (id.endsWith('.md')) {
         return transforms(text, id);
       }
       return text;

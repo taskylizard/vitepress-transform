@@ -49,5 +49,10 @@
   "packageManager": "pnpm@9.12.1",
   "peerDependencies": {
     "vitepress": "^1.4.0"
+  },
+  "peerDependenciesMeta": {
+    "vitepress": {
+      "optional": true
+    }
   }
 }
